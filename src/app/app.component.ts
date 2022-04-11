@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'simonbaumhauer';
+ images = ['laptop_1.avif', 'laptop_2.jpg', 'laptop_3.jpg'];
+ currentImage = 0;
+
+ngOnInit() {
+  this.upadateImage();
+}
+
+
+
+upadateImage() {
+setInterval(() => {
+  this.currentImage++;
+  this.currentImage = this.currentImage % this.images.length;
+}, 8000)
+}
+
+
 }
