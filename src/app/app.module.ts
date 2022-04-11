@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SlidehsowComponent } from './slidehsow/slidehsow.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SlidehsowComponent
   ],
   imports: [
     BrowserModule,
