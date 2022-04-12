@@ -33,7 +33,7 @@ animation: zoomIn 8s ease;
     p {
         margin-left: 120px;
         margin-right: 120px;
-        max-width: 800px;
+        max-width: 1200px;
         padding-left: 32px;
         color: aliceblue;
         font-size: 80px;
@@ -53,6 +53,11 @@ animation: zoomIn 8s ease;
             opacity: 1;
             transform: translateY(0);
         }
+    }
+
+    .profile-picture {
+        width: 400px;
+        border-radius: 100%;
     }
 
 }
