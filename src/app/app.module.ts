@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlidehsowComponent } from './slidehsow/slidehsow.component';
 import { MenuComponent } from './menu/menu.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SlidehsowComponent,
-    MenuComponent
+    MenuComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
