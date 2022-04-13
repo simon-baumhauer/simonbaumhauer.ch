@@ -2,10 +2,13 @@
     <img *ngIf="showImage" class="img-sildeshow" src="../assets/img/{{ images[currentImage] }}" alt="">
 </div> 
 <div class="slideshow-container slideshow-overlay">
-    <p *ngIf="showImage" class="fadeIn">
+    <p *ngIf="showImage">
       Hi,<br>
-      I'm Simon Baumhauer <br>
+      I'm <span class="first-name">Simon</span> Baumhauer <br>
       Front End developer
     </p>
     <img class="profile-picture" src="../assets/img/IMG_20211209_173204.jpg" alt="">
+    <button>
+      Contact me
+    </button>
   </div>

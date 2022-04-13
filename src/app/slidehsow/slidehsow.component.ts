@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlidehsowComponent implements OnInit {
   images = ['laptop_3.jpg', 'laptop_2.jpg', 'laptop_1.avif'];
-  headlines = ['Bring engineering to the next level', 'Passion for Code', 'Student in Business Informatics'];
+  headlines = ['Bring engineering to the next level'];
   currentImage = 0;
   showImage = true;
  
