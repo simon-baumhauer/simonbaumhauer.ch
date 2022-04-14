@@ -34,10 +34,8 @@ animation: zoomIn 8s ease;
         margin-left: 120px;
         margin-right: 120px;
         max-width: 1200px;
-        padding-left: 32px;
         color: aliceblue;
         font-size: 80px;
-        border-left: 8px solid #d85050;
     }
 
     .profile-picture {
@@ -52,18 +50,33 @@ animation: zoomIn 8s ease;
     button {
         z-index: 1;
         padding: 15px 50px;
-        border: rgb(45, 252, 216) 1px solid;
+        border: rgb(45, 252, 216) 2px solid;
         background-color: transparent;
         color: rgb(45, 252, 216);
         cursor: pointer;
         position: absolute;
         bottom: 100px;
-        left: 180px;
+        left: 120px;
 
         &:hover {
             background-color: rgb(45, 252, 216);
             color: white;
         }
+
+        
+    }
+
+    .slide-down-btn {
+        position: absolute;
+        bottom: 80px;
+        left: 800px;
+        border: white 1px solid;
+        border-radius: 50%;
+        padding: 8px 10px;
+
+        img {
+            width: 10px;
+            }
     }
 
 }
