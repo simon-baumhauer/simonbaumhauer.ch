@@ -7,6 +7,7 @@ import { SlidehsowComponent } from './slidehsow/slidehsow.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { SkillSheetComponent } from './skill-sheet/skill-sheet.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     SlidehsowComponent,
     MenuComponent,
     ImprintComponent,
-    DataProtectionComponent
+    DataProtectionComponent,
+    SkillSheetComponent
   ],
   imports: [
     BrowserModule,
