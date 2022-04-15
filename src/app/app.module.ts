@@ -11,6 +11,7 @@ import { SkillSheetComponent } from './skill-sheet/skill-sheet.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactFormularComponent } from './contact-formular/contact-formular.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactFormularComponent } from './contact-formular/contact-formular.co
     SkillSheetComponent,
     ProjectsComponent,
     AboutMeComponent,
-    ContactFormularComponent
+    ContactFormularComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

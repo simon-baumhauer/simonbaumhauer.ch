@@ -20,6 +20,11 @@
         margin-top: 50px;
         color: #afadad;
         text-align: left;
+        
+        a {
+            cursor: pointer;
+            color: rgb(45, 252, 216);
+        }
     }
     
     .forms {
@@ -42,6 +47,7 @@
         display: block;
         font-family: 'Raleway', sans-serif;
         background-color: rgb(26, 26, 26);
+        color: white;
     }
     
     textarea {
