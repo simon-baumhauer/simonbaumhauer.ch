@@ -6,10 +6,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
    
     h2 {
         margin-top: 100px;
+        margin-bottom: 0px;
         color: rgb(45, 252, 216);
         text-align: left;
         font-size: 42px;
@@ -17,9 +17,9 @@
     }
     
     h4 {
-        margin-top: 50px;
         color: #afadad;
         text-align: left;
+        margin-bottom: 40px;
         
         a {
             cursor: pointer;
@@ -51,7 +51,7 @@
     }
     
     textarea {
-        height: auto;
+        height: 100px;
     }
  
     button {
