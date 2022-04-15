@@ -1,0 +1,64 @@
+.projects-sheet {
+    width: 100vw;
+    height: 110vh;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        color: white;
+    }
+
+    .projects-container {
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin: 0px 300px;
+        justify-content: center;
+    }
+
+    .projects {
+        background-color: white;
+        width: 350px;
+        height: 300px;
+        margin: 10px;
+        flex-wrap: wrap;
+
+    img {
+         width: 100%;
+         min-height: 100%;
+         max-height: 100%;
+         object-fit: contain;
+         object-position: center;
+           } 
+
+          }
+
+    .projects:first-of-type {
+              img { border: blue 1px solid;
+              }
+           }
+    
+    button {
+        z-index: 1;
+        padding: 15px 50px;
+        margin: 15px 5px;
+        border: rgb(250, 39, 89) 2px solid;
+        background-color: transparent;
+        color: rgb(250, 39, 89);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(250, 39, 89);
+            color: white;
+        }
+
+        
+    }
+    
+}
+
+
