@@ -1,4 +1,6 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-slidehsow',
@@ -10,12 +12,12 @@ export class SlidehsowComponent implements OnInit {
   headlines = ['Bring engineering to the next level'];
   currentImage = 0;
   showImage = true;
- 
- ngOnInit() {
-   this.upadateImage();
- }
- 
- 
+
+  constructor(private scroller: ViewportScroller, private router: Router) {}
+  ngOnInit() {
+   
+    this.router.navigate(["/"]);
+  }
  
  upadateImage() {
  setInterval(() => {
@@ -28,5 +30,9 @@ export class SlidehsowComponent implements OnInit {
    }, 10);
  }, 8000)
  }
+
+ goDown1() {
+  this.scroller.scrollToAnchor("skills");
+}
 
 }

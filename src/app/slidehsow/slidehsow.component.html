@@ -9,7 +9,7 @@
     </p>
     <img class="profile-picture" src="../assets/img/profile-picture_1.png" alt="">
     <button>
-      Contact me
+     <a (click)="scrollToIdRef(target)">Contact me</a> 
     </button>
     <button class="slide-down-btn">
       <img src="../assets/img/Chervron.svg" alt="">
@@ -18,5 +18,5 @@
   <app-skill-sheet></app-skill-sheet>
   <app-projects></app-projects>
   <app-about-me></app-about-me>
-  <app-contact-formular></app-contact-formular>
+  <app-contact-formular id="contact" #target></app-contact-formular>
 
