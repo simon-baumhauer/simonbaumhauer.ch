@@ -2,14 +2,16 @@
     
 </div> 
 <div class="slideshow-container slideshow-overlay">
-    <p *ngIf="showImage">
-      Hi,<br>
-      I'm <span class="first-name">Simon</span> Baumhauer <br>
-      Front End develop<span style="color: rgb(45, 252, 216);">e</span>r
-    </p>
-    <img class="profile-picture" src="../assets/img/profile-picture_1.png" alt="">
+<div class="firstRow">
+  <p *ngIf="showImage">
+    Hi,<br>
+    I'm <span class="first-name">Simon</span> Baumhauer <br>
+    Front End develop<span style="color: rgb(45, 252, 216);">e</span>r
+  </p>
+  <img class="profile-picture" src="../assets/img/profile-picture_1.png" alt="">
+</div>
     <button>
-     <a (click)="scrollToIdRef(target)">Contact me</a> 
+     <a>Contact me</a> 
     </button>
     <button class="slide-down-btn">
       <img src="../assets/img/Chervron.svg" alt="">

@@ -32,7 +32,7 @@ export class SlidehsowComponent implements OnInit {
  }
 
  goDown1() {
-  this.scroller.scrollToAnchor("skills");
+  this.scroller.scrollToAnchor("targetRed");
 }
 
 }
