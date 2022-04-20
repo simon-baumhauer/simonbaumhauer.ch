@@ -13,11 +13,16 @@ export class SlidehsowComponent implements OnInit {
   currentImage = 0;
   showImage = true;
 
-  constructor(private scroller: ViewportScroller, private router: Router) {}
+  constructor( private router: Router) {}
   ngOnInit() {
    
     this.router.navigate(["/"]);
   }
+
+  scrollToIdRef(element): void {
+
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
  
  upadateImage() {
  setInterval(() => {
@@ -30,9 +35,5 @@ export class SlidehsowComponent implements OnInit {
    }, 10);
  }, 8000)
  }
-
- goDown1() {
-  this.scroller.scrollToAnchor("targetRed");
-}
 
 }

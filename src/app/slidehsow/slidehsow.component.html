@@ -14,11 +14,13 @@
      <a>Contact me</a> 
     </button>
     <button class="slide-down-btn">
-      <img src="../assets/img/Chervron.svg" alt="">
+      <a href="" >
+        <img src="../assets/img/Chervron.svg" alt="" (click)="scrollToIdRef(target)">
+      </a>
     </button>
   </div>
-  <app-skill-sheet></app-skill-sheet>
+  <app-skill-sheet #target></app-skill-sheet>
   <app-projects></app-projects>
   <app-about-me></app-about-me>
-  <app-contact-formular id="contact" #target></app-contact-formular>
+  <app-contact-formular></app-contact-formular>
 

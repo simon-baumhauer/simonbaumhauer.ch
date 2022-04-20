@@ -24,11 +24,11 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     AboutMeComponent,
     ContactFormularComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
