@@ -20,7 +20,6 @@ export class SlidehsowComponent implements OnInit {
   }
 
   scrollToIdRef(element): void {
-
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
  
