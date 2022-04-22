@@ -3,14 +3,16 @@
 </div> 
 <div class="slideshow-container slideshow-overlay">
 <div class="firstRow">
-  <p *ngIf="showImage">
-    Hi,<br>
-    I'm <span class="first-name">Simon</span> Baumhauer <br>
-    Front End develop<span style="color: rgb(45, 252, 216);">e</span>r
-    <button>
+  <div class="header" *ngIf="showImage">
+    <h1>
+      Hi,<br>
+      I'm <span class="first-name">Simon</span> Baumhauer <br>
+      Front End develop<span style="color: rgb(45, 252, 216);">e</span>r
+    </h1>
+    <button class="button">
       <a>Contact me</a> 
      </button>
-  </p>
+    </div>
   <img class="profile-picture" src="../assets/img/profile-picture_1.png" alt="">
 </div>
     <button class="slide-down-btn">
