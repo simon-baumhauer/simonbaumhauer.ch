@@ -2,9 +2,23 @@
     <img *ngIf="!darkMode" routerLink="/" src="../assets/img/LogoMakr-White.png" alt="">  
     <img *ngIf="darkMode" routerLink="/" src="../assets/img/LogoMakr-Black.png" alt="">
 
-    <div [class.darkLinks]="darkMode">
+    <div [class.darkLinks]="darkMode" class="side-menu">
         <a routerLink="/">Home</a>
         <a href="#">About</a>
         <a href="#">Projects</a> 
+    </div>
+    <div [class.darkLinks]="darkMode" class="dropdown-menu-container">
+    <div class="btn-group">
+    <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent !important; border: 0px; box-shadow: none">
+        <img src="../assets/img/hamburger-menu.svg" alt="" class="dropdown-menu-button">
+    </button>
+    <ul class="dropdown-menu" style="background-color: rgb(19, 17, 17) !important;" >
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
     </div>
 </header>
