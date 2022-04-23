@@ -1,12 +1,13 @@
 .projects-sheet {
     width: 100vw;
-    height: 110vh;
+    min-height: 110vh;
     max-width: 100%;
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding: 30px 0px;
 
     h2 {
         color: white;
@@ -84,4 +85,14 @@
     
 }
 
+
+
+@media only screen and (max-width: 750px) {
+    .projects {
+        width: 250px;
+        height: 200px;
+    }
+
+ 
+}
 

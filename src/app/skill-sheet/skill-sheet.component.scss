@@ -15,38 +15,49 @@ h2 {
     font-size: 36px;
 }
 
-.flex-rows {
+.skills-container {
+    
+display: grid;
+grid-template-columns: 33% 33% 33%;
+padding: 0px 100px;
+
+div {
+    width: 180px;
+    height: 110px;
+    margin: 30px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-
-    div {
-        width: 180px;
-        height: 110px;
-        margin: 30px;
-        position: relative;
+    .cricle {
+        max-width: 50px;
+        height: 50px;
+        padding: 3px;
         background-color: white;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -60px;
+        box-shadow: 0px 4px 4px rgba(197, 197, 197, 0.35);
 
-        .cricle {
-            max-width: 50px;
-            height: 50px;
-            padding: 3px;
-            background-color: white;
-            border-radius: 50%;
-            position: absolute;
-            top: -60px;
-            box-shadow: 0px 4px 4px rgba(197, 197, 197, 0.35);
-
-            img {
-                max-width: 30px;
-                
-            }
-
+        img {
+            max-width: 30px;
             
         }
+
+        
     }
+}
+}
+
+@media only screen and (max-width: 885px) {
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+ }
 }
