@@ -4,8 +4,8 @@
 
     <div [class.darkLinks]="darkMode" class="side-menu">
         <a routerLink="/">Home</a>
-        <a href="#">About</a>
-        <a>Projects</a> 
+        <a (click)="goDownToAbout()">About</a>
+        <a (click)="goDownToProjects()">Projects</a> 
     </div>
     <div [class.darkLinks]="darkMode" class="dropdown-menu-container">
     <div class="btn-group">

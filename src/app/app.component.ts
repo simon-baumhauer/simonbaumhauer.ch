@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { Router } from '@angular/router';
 
 
@@ -10,7 +10,5 @@ import { Router } from '@angular/router';
 export class AppComponent{
 
 constructor( public router: Router) {}
-
-
 
 }

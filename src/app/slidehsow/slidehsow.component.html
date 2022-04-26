@@ -10,20 +10,19 @@
       Front End develop<span style="color: rgb(45, 252, 216);">e</span>r
     </h1>
     <button class="button">
-      <a href="#contact">Contact me</a> 
+      <a (click)="goDown1()">Contact me</a>
      </button>
     </div>
   <img class="profile-picture" src="../assets/img/profile-picture_1.png" alt="">
 </div>
     <button class="slide-down-btn">
-      <a href="" >
+      <a (click)="goDown2()">
         <img src="../assets/img/Chervron.svg" alt="">
       </a>
     </button>
   </div>
-  <app-skill-sheet>
-  </app-skill-sheet>
+  <app-skill-sheet id="targetGreen"></app-skill-sheet>
   <app-projects></app-projects>
   <app-about-me></app-about-me>
-  <app-contact-formular id="contact"></app-contact-formular>
+  <app-contact-formular id="targetRed"></app-contact-formular>
 
