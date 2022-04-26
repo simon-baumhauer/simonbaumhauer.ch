@@ -63,13 +63,17 @@ animation: zoomIn 8s ease;
 
     .button {
         z-index: 1;
-        padding: 15px 50px;
+        padding: 15px 0px;
         border: rgb(45, 252, 216) 2px solid;
         background-color: transparent;
         color: rgb(45, 252, 216);
         cursor: pointer;
         display: block;
         margin-top: 80px;
+
+        a {
+            padding: 15px 50px;
+        }
         
 
         &:hover {
@@ -85,15 +89,23 @@ animation: zoomIn 8s ease;
         left: 50%;
         border: white 1px solid;
         border-radius: 50%;
-        padding: 8px 10px;
         bottom: 50px;
         background-color: transparent;
+        padding: 6px;
+
+        a {
+            padding: 5px 8px;
+        }
 
         img {
             width: 10px;
             }
-    }
 
+        &:hover {
+            box-shadow: 0 0 14px white;
+        }
+
+    }
 }
 
 

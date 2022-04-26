@@ -13,11 +13,9 @@
         <img src="../assets/img/hamburger-menu.svg" alt="" class="dropdown-menu-button">
     </button>
     <ul class="dropdown-menu" style="background-color: rgb(19, 17, 17) !important;" >
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" routerLink="/">Home</a></li>
+      <li><a class="dropdown-item" (click)="goDownToAbout()">About</a></li>
+      <li><a class="dropdown-item" (click)="goDownToProjects()">Projects</a></li>
     </ul>
   </div>
     </div>

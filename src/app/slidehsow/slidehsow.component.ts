@@ -19,12 +19,12 @@ export class SlidehsowComponent implements OnInit {
     this.router.navigate(["/"]);
   }
 
-  goDown1() {
-    this.scroller.scrollToAnchor("targetRed");
+  goDowntoContact() {
+    this.scroller.scrollToAnchor("contact-form");
   }
 
-  goDown2() {
-    this.scroller.scrollToAnchor("targetGreen");
+  goDowntoSkillsheet() {
+    this.scroller.scrollToAnchor("skill-sheet");
   }
  
  upadateImage() {
