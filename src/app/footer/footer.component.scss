@@ -24,3 +24,23 @@
 
     }
 }
+
+
+@media only screen and (max-width: 575px) {
+    .footer {
+        .footer-container {
+            padding: 5px;
+            width: 50%;
+
+            a {
+                display: block;
+            }
+
+            img {
+                padding: 0px;
+                width: 70px;
+                float: right;
+            }
+        }
+    }
+}

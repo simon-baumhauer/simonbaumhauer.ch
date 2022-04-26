@@ -13,6 +13,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactFormularComponent } from './contact-formular/contact-formular.component';
 import { FooterComponent } from './footer/footer.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,

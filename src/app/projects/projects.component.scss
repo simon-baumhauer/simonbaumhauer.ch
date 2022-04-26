@@ -96,3 +96,17 @@
  
 }
 
+@media only screen and (max-width: 520px) {
+    .projects-sheet {
+        button {
+            padding: 15px 20px;
+        }
+
+        .projects {
+            width: 90%;
+        }
+    }
+
+  
+}
+
