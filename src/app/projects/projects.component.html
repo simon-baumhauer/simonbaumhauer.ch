@@ -1,21 +1,21 @@
 <div class="projects-sheet" id="projects">
     <h2>My Projects</h2>
     <div>
-        <button class="button-active">ALL</button>
-        <button>Javascipt</button>
-        <button>Angular</button>
-    </div>
+        <button id="showAll" (click)="showAll()" class="button-active">ALL</button>
+        <button id="showJavascript" (click)="showJavascript()">Javascipt</button>
+        <button id="showAngular" (click)="showAngular()">Angular</button>
+    </div> 
     <div class="projects-container">
-        <div class="projects">
+        <div class="projects JavascriptProjects" *ngIf="javascript all">
             <img src="../assets/img/El-Pollop-Loco.png" alt="">
         </div>
-        <div class="projects">
+        <div class="projects JavascriptProjects" *ngIf="javascript all">
             <img src="../assets/img/quiz.jpg" alt="">
         </div>
-        <div class="projects">
+        <div class="projects JavascriptProjects" *ngIf="javascript all">
             <img src="../assets/img/Kochwelt.png" alt="">
         </div>
-        <div class="projects">
+        <div class="projects JavascriptProjects" *ngIf="javascript all">
             <img src="../assets/img/joinlogo.png" alt="">
         </div>
     </div>
