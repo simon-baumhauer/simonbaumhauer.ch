@@ -29,6 +29,7 @@
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
+        position: relative;
 
 
 
@@ -46,30 +47,44 @@
 
         .overlay {
         background-color: transparent;
-        width: 350px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0; 
+        right: 0;
         height: 300px;
         position: absolute;
         z-index: 1;
         transition: 0.3s;
         opacity: 0;
 
-        &:hover {
+            &:hover {
             height: 300px;
             background-color: rgba($color: #ffffff, $alpha: 0.6);
             opacity: 1.0;
+            }
+
+
+        .button-container  {
+            display: flex;
+            justify-content: space-around;
+            height: 90%;
+            align-items: flex-end;
         }
+        
 
         button {
             background-color: #FFF;
             z-index: 2;
             opacity: 1.0;
-            width: 18%;
+            width: 85px;
             height: 40px;
             margin: 0;
-            padding: 0;
+            padding: 0px;
 
             &:hover {
-                color: black;
+                color: white;
+                background-color: rgb(250, 39, 89);
             }
         } 
 
