@@ -6,17 +6,25 @@
         <button id="showAngular" (click)="showAngular()">Angular</button>
     </div> 
     <div class="projects-container">
-        <div class="projects JavascriptProjects" *ngIf="javascript all">
+        <div class="projects" *ngIf="javascript all" (click)="overlay()">
             <img src="../assets/img/El-Pollop-Loco.png" alt="">
+            <div class="overlay">
+                <button class="project-button">JS DOC</button>
+                <button>HTTP</button>
+                <button>Github</button>
+            </div>
         </div>
-        <div class="projects JavascriptProjects" *ngIf="javascript all">
+        <div class="projects" *ngIf="javascript all">
             <img src="../assets/img/quiz.jpg" alt="">
+            <div class="overlay"></div>
         </div>
-        <div class="projects JavascriptProjects" *ngIf="javascript all">
+        <div class="projects" *ngIf="javascript all">
             <img src="../assets/img/Kochwelt.png" alt="">
+            <div class="overlay"></div>
         </div>
-        <div class="projects JavascriptProjects" *ngIf="javascript all">
+        <div class="projects" *ngIf="javascript all">
             <img src="../assets/img/joinlogo.png" alt="">
+            <div class="overlay"></div>
         </div>
     </div>
 

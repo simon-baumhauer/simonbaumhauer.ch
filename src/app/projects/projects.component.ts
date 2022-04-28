@@ -45,4 +45,8 @@ export class ProjectsComponent implements OnInit {
     document.getElementById('showAngular').classList.add('button-active')
   }
 
+  overlay() {
+    document.getElementById('overlay_El-Pollo-Loco').classList.add('fadeIn');
 }
+}
+
