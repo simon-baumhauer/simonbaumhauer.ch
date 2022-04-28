@@ -57,23 +57,31 @@
         z-index: 1;
         transition: 0.3s;
         opacity: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
             &:hover {
-            height: 300px;
-            background-color: rgba($color: #ffffff, $alpha: 0.6);
-            opacity: 1.0;
+                height: 300px;
+                background-color: rgba($color: #ffffff, $alpha: 0.8);
+                opacity: 1.0;
             }
 
+            h4 {
+                color:rgb(250, 39, 89);
+                font-weight: bold;
+            }
 
         .button-container  {
             display: flex;
             justify-content: space-around;
-            height: 90%;
-            align-items: flex-end;
         }
+
+        
         
 
-        button {
+        button, a {
             background-color: #FFF;
             z-index: 2;
             opacity: 1.0;
@@ -81,11 +89,18 @@
             height: 40px;
             margin: 0;
             padding: 0px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+
+            
             &:hover {
-                color: white;
                 background-color: rgb(250, 39, 89);
+                color: white;
             }
+
         } 
 
         }
@@ -118,7 +133,7 @@
             background-color: rgba(21, 21, 190, 0.4);
          }
     
-    button {
+    button, a {
         z-index: 1;
         padding: 15px 50px;
         margin: 15px 5px;
