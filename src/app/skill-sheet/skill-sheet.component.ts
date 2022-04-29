@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 
+
 @Component({
   selector: 'app-skill-sheet',
   templateUrl: './skill-sheet.component.html',
@@ -12,5 +13,7 @@ export class SkillSheetComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+
 
 }
