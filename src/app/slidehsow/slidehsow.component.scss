@@ -45,7 +45,7 @@ animation: zoomIn 8s ease;
 
         h1 {
             font-size: 64px;
-            margin: 80px 10px 0px 10px;
+            margin: 80px 10px 0px 0px;
         }
     }
 
@@ -132,10 +132,6 @@ animation: zoomIn 8s ease;
             max-width: 250px;
             margin: 40px auto 0px auto;
         }
-
-        .button {
-            margin: 20px 10px;
-           } 
      }  
     
   }
@@ -151,7 +147,6 @@ animation: zoomIn 8s ease;
         }
 
         .header {
-            margin: 0;
             h1 {
                 font-size: 32px;
             }
@@ -161,6 +156,13 @@ animation: zoomIn 8s ease;
  }
 
 
+ @media only screen and (max-width: 500px) {
+
+    .button {
+        width: 250px;
+       } 
+ }
 
 
- 
+
+
