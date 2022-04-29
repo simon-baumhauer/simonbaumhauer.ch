@@ -1,4 +1,5 @@
 .projects-sheet {
+    overflow-x: hidden; 
     width: 100vw;
     min-height: 110vh;
     max-width: 100%;
@@ -188,7 +189,7 @@
 @media only screen and (max-width: 520px) {
     .projects-sheet {
         button {
-            padding: 15px 20px;
+            padding: 15px 18px;
         }
 
         .projects {

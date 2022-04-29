@@ -66,6 +66,7 @@ animation: zoomIn 8s ease;
         z-index: 1;
         padding: 15px 0px;
         border: rgb(45, 252, 216) 2px solid;
+        border-radius: 5px;
         background-color: transparent;
         color: rgb(45, 252, 216);
         cursor: pointer;
@@ -79,6 +80,7 @@ animation: zoomIn 8s ease;
 
         &:hover {
             background-color: rgb(45, 252, 216);
+            box-shadow: 0 0 2px rgb(45, 252, 216), 0 0 10px rgb(45, 252, 216), 0 0 20px rgb(45, 252, 216); 
             color: white;
         }
 
