@@ -113,7 +113,6 @@
         .el-pollo-loco-pic {
             .img {
                 object-fit: cover;
-                object-position: -170px;
             }
         
         }
@@ -137,7 +136,9 @@
             background-color: rgba(21, 21, 190, 0.4);
 
             .img {
-            width: 30%;
+            width: 100%;
+            min-height: 100%;
+            object-fit: cover;
             }
      }
     
