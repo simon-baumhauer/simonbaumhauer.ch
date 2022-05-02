@@ -1,22 +1,51 @@
 <header [class.darkHeader]="darkMode">
-    <img *ngIf="!darkMode" routerLink="/" src="../assets/img/LogoMakr-White.png" alt="">  
-    <img *ngIf="darkMode" routerLink="/" src="../assets/img/LogoMakr-Black.png" alt="">
+  <img
+    *ngIf="!darkMode"
+    routerLink="/"
+    src="../assets/img/LogoMakr-White.png"
+    alt=""
+  />
+  <img
+    *ngIf="darkMode"
+    routerLink="/"
+    src="../assets/img/LogoMakr-Black.png"
+    alt=""
+  />
 
-    <div [class.darkLinks]="darkMode" class="side-menu">
-        <a routerLink="/">Home</a>
-        <a (click)="goDownToAbout()">About</a>
-        <a (click)="goDownToProjects()">Projects</a> 
-    </div>
-    <div [class.darkLinks]="darkMode" class="dropdown-menu-container">
-    <div class="btn-group">
-    <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent !important; border: 0px; box-shadow: none">
-        <img src="../assets/img/hamburger-menu.svg" alt="" class="dropdown-menu-button">
-    </button>
-    <ul class="dropdown-menu" style="background-color: rgb(19, 17, 17) !important;" >
-      <li><a class="dropdown-item" routerLink="/">Home</a></li>
-      <li><a class="dropdown-item" (click)="goDownToAbout()">About</a></li>
-      <li><a class="dropdown-item" (click)="goDownToProjects()">Projects</a></li>
-    </ul>
+  <div [class.darkLinks]="darkMode" class="side-menu">
+    <a routerLink="/">Home</a>
+    <a (click)="goDownToAbout()">About</a>
+    <a (click)="goDownToProjects()">Projects</a>
   </div>
+  <div [class.darkLinks]="darkMode" class="dropdown-menu-container">
+    <div class="btn-group">
+      <button
+        type="button"
+        class="btn"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        style="
+          background-color: transparent !important;
+          border: 0px;
+          box-shadow: none;
+        "
+      >
+        <img
+          src="../assets/img/hamburger-menu.svg"
+          alt=""
+          class="dropdown-menu-button"
+        />
+      </button>
+      <ul
+        class="dropdown-menu"
+        style="background-color: rgb(19, 17, 17) !important"
+      >
+        <li><a class="dropdown-item" routerLink="/">Home</a></li>
+        <li><a class="dropdown-item" (click)="goDownToAbout()">About</a></li>
+        <li>
+          <a class="dropdown-item" (click)="goDownToProjects()">Projects</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </header>

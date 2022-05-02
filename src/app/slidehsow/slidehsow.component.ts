@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-slidehsow',
   templateUrl: './slidehsow.component.html',
-  styleUrls: ['./slidehsow.component.scss']
+  styleUrls: ['./slidehsow.component.scss'],
 })
 export class SlidehsowComponent implements OnInit {
   images = ['laptop_3.jpg', 'laptop_2.jpg', 'laptop_1.avif'];
@@ -15,28 +15,26 @@ export class SlidehsowComponent implements OnInit {
 
   constructor(private scroller: ViewportScroller, private router: Router) {}
   ngOnInit() {
-   
-    this.router.navigate(["/"]);
+    this.router.navigate(['/']);
   }
 
   goDowntoContact() {
-    this.scroller.scrollToAnchor("contact-form");
+    this.scroller.scrollToAnchor('contact-form');
   }
 
   goDowntoSkillsheet() {
-    this.scroller.scrollToAnchor("skill-sheet");
+    this.scroller.scrollToAnchor('skill-sheet');
   }
- 
- upadateImage() {
- setInterval(() => {
-   this.currentImage++;
-   this.currentImage = this.currentImage % this.images.length;
-   this.showImage = false;
- 
-   setTimeout(() => {
-     this.showImage = true;
-   }, 10);
- }, 8000)
- }
 
+  upadateImage() {
+    setInterval(() => {
+      this.currentImage++;
+      this.currentImage = this.currentImage % this.images.length;
+      this.showImage = false;
+
+      setTimeout(() => {
+        this.showImage = true;
+      }, 10);
+    }, 8000);
+  }
 }
