@@ -13,15 +13,18 @@ export class MenuComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  /**
+   * This function scroll down to the about-me section
+   */
   goDownToAbout() {
     this.scroller.scrollToAnchor('about-me');
   }
 
+  /**
+   * This function scrolss down to the project section
+   */
   goDownToProjects() {
     this.scroller.scrollToAnchor('projects');
   }
 
-  goDown2() {
-    this.scroller.scrollToAnchor('targetGreen');
-  }
 }

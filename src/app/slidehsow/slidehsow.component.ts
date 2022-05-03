@@ -18,23 +18,17 @@ export class SlidehsowComponent implements OnInit {
     this.router.navigate(['/']);
   }
 
+  /**
+   * This function scrolls down to the contac-section
+   */
   goDowntoContact() {
     this.scroller.scrollToAnchor('contact-form');
   }
 
+  /**
+   * This function scrolls down to the skill-section
+   */
   goDowntoSkillsheet() {
     this.scroller.scrollToAnchor('skill-sheet');
-  }
-
-  upadateImage() {
-    setInterval(() => {
-      this.currentImage++;
-      this.currentImage = this.currentImage % this.images.length;
-      this.showImage = false;
-
-      setTimeout(() => {
-        this.showImage = true;
-      }, 10);
-    }, 8000);
   }
 }
