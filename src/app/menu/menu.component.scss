@@ -12,6 +12,10 @@ header {
   justify-content: space-between;
   align-items: center;
 
+  .btn {
+    padding: 0;
+  }
+
   a {
     color: white;
     text-decoration: none;
