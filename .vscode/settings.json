@@ -1,3 +1,5 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "appService.defaultWebAppToDeploy": "/subscriptions/cdb41953-b5e1-4946-a7df-48caefb51adc/resourceGroups/Hosting/providers/Microsoft.Web/sites/simon-baumhauer",
+  "appService.deploySubpath": "dist"
 }
